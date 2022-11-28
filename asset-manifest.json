@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cascaosystem/static/css/main.e6c13ad2.css",
+    "main.js": "/cascaosystem/static/js/main.089ffb5d.js",
+    "static/js/787.026e029e.chunk.js": "/cascaosystem/static/js/787.026e029e.chunk.js",
+    "index.html": "/cascaosystem/index.html",
+    "main.e6c13ad2.css.map": "/cascaosystem/static/css/main.e6c13ad2.css.map",
+    "main.089ffb5d.js.map": "/cascaosystem/static/js/main.089ffb5d.js.map",
+    "787.026e029e.chunk.js.map": "/cascaosystem/static/js/787.026e029e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.089ffb5d.js"
+  ]
+}
