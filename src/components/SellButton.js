@@ -59,6 +59,8 @@ export default function SellProductButton({ id, productType }) {
         refreshPage();
     }
 
+    //TEM UM BUG QUE O SETDOC NA PRIMEIRA VEZ SUBSTITUI E DEPOIS QUE FAZ O UPDATE...
+
     return (
         <>
             <Container>

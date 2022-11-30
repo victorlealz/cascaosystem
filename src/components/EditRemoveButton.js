@@ -54,9 +54,10 @@ export default function EditRemoveButton({ id, productType }) {
     //ARE YOU SURE? MUI JSX
     const [openEdit, setOpenEdit] = React.useState(false);
     const [openRemove, setOpenRemove] = React.useState(false);
-    const handleClickOpenEdit = () => { setOpenEdit(true) };
+    
     const handleClickOpenRemove = () => { setOpenRemove(true) };
     const handleClose = () => { setOpenEdit(false); setOpenRemove(false) };
+    const handleClickOpenEdit = () => { setOpenEdit(true) };
 
 
     //AutoRefresh
@@ -81,8 +82,10 @@ export default function EditRemoveButton({ id, productType }) {
             productSelled: data.productSelled
         }
         )
-        handleClose();
-        refreshPage();
+        
+            handleClose();
+            refreshPage();
+
     }
 
 
@@ -215,7 +218,7 @@ export default function EditRemoveButton({ id, productType }) {
                         </DialogContent>
                         <DialogActions>
                             <Button onClick={handleClose}>Sair</Button>
-                            <Button type="submit" onClick={handleClose}>Cadastrar</Button>
+                            <Button type="submit">Cadastrar</Button>
                         </DialogActions>
                     </form>
                 </Dialog>
